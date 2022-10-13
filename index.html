@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221013134841">
+	<title>Главная</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<main>
+			<div class="main-block _container">
+				<div class="main-block__body">
+					<div class="main-block__background _ibg"><picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.jpg" alt=""></picture></div>
+					<div class="main-block__form form">
+						<form id="myForm" action="" method="post" class="form__body validate">
+							<label for="name">Имя*</label>
+							<input type="text" id="name" name="name" class="form__name required text">
+							<span class="message" data-class="name"></span>
+
+							<label for="surname">Фамилия*</label>
+							<input type="text" id="surname" name="surname" class="form__surname required text">
+							<span class="message" data-class="surname"></span>
+
+							<label for="email">Email*</label>
+							<input id="email" name="email" class="form__email required email">
+							<span class="message" data-class="email"></span>
+
+							<label for="age">Возраст*</label>
+							<input type="text" id="age" name="age" class="form__age required age">
+							<span class="message" data-class="age"></span>
+
+							<label for="about">О себе</label>
+							<input type="text" id="about" name="about" class="form__about">
+
+							<button type="submit" value="Отправить" class="form__submit">Отправить</button>
+						</form>
+						<div class="form__comment">*поля обязательные для заполнения</в>
+						</div>
+					</div>
+				</div>
+		</main>
+
+	</div>
+	<script src="js/app.min.js?_v=20221013134841"></script>
+</body>
+
+</html>
