@@ -230,4 +230,5 @@ button[type=submit] {
 
 .error {
   box-shadow: 0 0 8px 1px #c74a4a;
+	-webkit-box-shadow: 0 0 5px 1px #f00f0f;
 }
