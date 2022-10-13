@@ -187,6 +187,12 @@ button[type=submit] {
   appearance: none;
 }
 
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 .main-block__background {
   position: absolute;
   width: 100%;
@@ -230,6 +236,6 @@ button[type=submit] {
 
 .error {
 -webkit-box-shadow: 0 0 8px 1px #c74a4a;
-background-color: #f0b0b0;
+background-color: #bdf0b0;
 box-shadow: 0 0 8px 1px #c74a4a;
 }
