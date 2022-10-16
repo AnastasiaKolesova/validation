@@ -1,3 +1,3 @@
-# Валидация полей ввода
+# Input validation
 
-Релизовано на ванильном JS
+Vanilla JS
